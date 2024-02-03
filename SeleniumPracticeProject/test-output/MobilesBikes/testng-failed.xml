@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MobilesBikes]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test4(failed)">
+    <classes>
+      <class name="Bikes.Hero">
+        <methods>
+          <include name="hero"/>
+        </methods>
+      </class> <!-- Bikes.Hero -->
+      <class name="Mobiles.Redmi">
+        <methods>
+          <include name="redmistart"/>
+        </methods>
+      </class> <!-- Mobiles.Redmi -->
+      <class name="Mobiles.Moto">
+        <methods>
+          <include name="StartandStop"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Mobiles.Moto -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+</suite> <!-- Failed suite [MobilesBikes] -->

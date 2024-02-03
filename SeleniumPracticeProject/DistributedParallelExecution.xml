@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MobileBikes" parallel="tests">
+  <test thread-count="5" name="Combined1">
+    <classes>
+      <class name="Mobiles.vivo"/>
+      <class name="Mobiles.iphone"/>
+      <class name="Mobiles.Moto"/>
+      <class name="Mobiles.Redmi"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Combined2">
+    <classes>
+      <class name="Bikes.Hero"/>
+      <class name="Bikes.Suzuki"/>
+      <class name="Bikes.Yamaha"/>
+      </classes>
+  </test>
+</suite> <!-- MobileBikes -->
